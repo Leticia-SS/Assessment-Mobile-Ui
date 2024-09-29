@@ -1,3 +1,5 @@
+/* Background Component Estilização */
+
 .carousel-container{
     display: flex;
     flex-direction: column;
@@ -22,6 +24,38 @@
 }
 .img3{
     background-image: url('../assets/FundoMobile3.svg');
+}
+
+/* Card Components Estilização */
+.card-container{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 85%;
+    flex-grow: 1;
+    flex-basis: 500px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: var(--azul);
+}
+
+.card-image{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title{
+    text-align: center;
+    color: white;
+}
+
+.card-content{
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    text-align: justify;
 }
 
 @media (min-width:576px) {

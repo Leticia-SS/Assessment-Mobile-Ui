@@ -1,8 +1,11 @@
+import './components.css'
+
 const Card = (props) => {
     return(
         <div className='card-container'>
-            <h2>{props.title}</h2>
-            <p>{props.content}</p>
+            <img className='card-image' src={props.img} alt="Card Background" />
+            <h2 className='card-title'>{props.title}</h2>
+            <p className='card-content'>{props.content}</p>
         </div>
     )
 }
