@@ -9,7 +9,7 @@ import CardTitle from "./components/CardTitle";
 
 const Proposals = () => {
     return(
-        <section>
+        <section id='Propostas'>
             <div className='proposal-title-container'>
                 <img className='proposal-title' src={title} alt="title" /></div>
             <div className='proposal-cards-container'>

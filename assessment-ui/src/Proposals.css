@@ -62,21 +62,67 @@
 
 
 @media (min-width:576px) {
-  
+    .proposal-title-container{
+        height: 220px;
+    }
+    .proposal-title{
+        width: 300px;
+    }
+
+    .proposal-cards-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+        padding: 20px;
+    }
+    .card-title{
+        padding: 5px;
+    }
+
+    .otherProposal-title-container{
+        background-position-y: 30%;
+        padding-bottom: 20px;
+    }
+
+    .proposal-h2{
+        padding-top: 20px;
+        height: fit-content;
+        font-size: 24px;
+    }
 }
 
-@media (min-width:768px) {
+/* @media (min-width:768px) {
   
-}
+} */
 
 @media (min-width:992px) {
-
+    .otherProposal-title-container{
+        background-position-y: 30%;
+    }
+    .proposal-cardsTitle-container{
+        grid-template-columns: repeat(3, 1fr);    
+    }
+    .proposal-title-container{
+        background-position-y: 15%;
+    }
+    .proposal-h2{
+        font-size: 28px;
+    }
 }
 
 @media (min-width:1200px) {
+    .proposal-title{
+        width: 370px;
+    }
+    .proposal-title-container{
+        background-position-y: 20%;
+    }
 
 }
 
 @media (min-width:1440px) {
- 
+    .proposal-title-container{
+        background-position-y: 27%;
+    }
 }

@@ -80,6 +80,10 @@
     .carousel-Logo, .slogan{
         width: 60%;
     }
+
+    .card-container{
+        flex-basis: calc(45% - 10px);
+    }
 }
 
 @media (min-width:768px) {
@@ -95,6 +99,10 @@
 @media (min-width:1200px) {
     .carousel-Logo, .slogan{
         width: 35%;
+    }
+
+    .card-container{
+        flex-basis: calc(20% - 10px);
     }
 }
 
