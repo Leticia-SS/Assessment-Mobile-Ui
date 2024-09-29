@@ -3,6 +3,7 @@ import Header from './Header'
 import CarouselContainer from './components/Background'
 import Biography from './Biography'
 import Proposals from './Proposals'
+import Agenda from './Agenda'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
   <CarouselContainer/>
   <Biography/>
   <Proposals/>
+  <Agenda/>
     </>
   )
 }

@@ -75,6 +75,32 @@
     justify-content: center; 
 }
 
+/* CardEvent Component Style */
+
+.event-container {
+    background-color: whitesmoke; 
+    border-radius: 8px; 
+    padding: 20px;
+    width: 100%;
+}
+
+.event-info {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between; 
+    margin-bottom: 8px; 
+    color: var(--vinho); 
+}
+
+.event-main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-description{
+    padding-top: 20px;
+}
 
 @media (min-width:576px) {
     .carousel-Logo, .slogan{
