@@ -1,0 +1,24 @@
+.carousel-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    transition: background-image 0.5s ease; 
+    background-size: cover;
+    height: calc(100vh - 100px);
+}
+
+.carousel-Logo, .slogan{
+    width: 80%;
+}
+
+.img1{
+    background-image: url('../assets/FundoMobile1.svg');
+}
+.img2{
+    background-image: url('../assets/FundoMobile2.svg');
+}
+.img3{
+    background-image: url('../assets/FundoMobile3.svg');
+}
