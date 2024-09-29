@@ -36,16 +36,18 @@
 
 @media (min-width:992px) {
     .carousel-Logo, .slogan{
-        width: 60%;
+        width: 50%;
     }
 }
 
 @media (min-width:1200px) {
-
+    .carousel-Logo, .slogan{
+        width: 45%;
+    }
 }
 
 @media (min-width:1440px) {
     .carousel-Logo, .slogan{
-        width: 55%;
+        width: 40%;
     }
 }

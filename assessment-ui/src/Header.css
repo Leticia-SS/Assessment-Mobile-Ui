@@ -10,6 +10,7 @@
     align-items: center;
     padding: 0 20px 0 20px;
     position: fixed;
+    z-index: 3;
 }
 
 .header-iconBtn{
@@ -28,7 +29,7 @@
     background-color: var(--azul);
     width: 200px;
     height: 100vh;
-    z-index: 2;
+    z-index: 3;
 }
 
 .menu-ul{
@@ -41,7 +42,7 @@
     color: white;
     font-weight: bold;
     font-size: 20px;
-    z-index: 2;
+    z-index: 3;
     }
 
 a:hover, a:focus, a:focus-visible{
@@ -82,13 +83,13 @@ a:hover, a:focus, a:focus-visible{
 }
 
 
-@media (min-width:576px) {
+/* @media (min-width:576px) {
   
 }
 
 @media (min-width:768px) {
   
-}
+} */
 
 @media (min-width:992px) {
     .header-iconBtn{
@@ -111,7 +112,7 @@ a:hover, a:focus, a:focus-visible{
         gap: 40px;
         color: var(--rosa);
         font-weight: bold;
-        font-size: 24px;
+        font-size: 20px;
     }
     .menu-logoSvg{
         display: none;
@@ -128,7 +129,7 @@ a:hover, a:focus, a:focus-visible{
         gap: 70px;
         color: var(--rosa);
         font-weight: bold;
-        font-size: 26px;
+        font-size: 22px;
     }
 }
 

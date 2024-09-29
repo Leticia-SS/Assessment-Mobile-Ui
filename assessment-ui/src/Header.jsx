@@ -24,10 +24,10 @@ const Header = () => {
             <nav className={`header-menu ${open ? 'open' : ''}`} >
                 <button className='menu-closeBtn'><FontAwesomeIcon icon={faX} onClick={toggleMenu} /></button>
                 <ul className='menu-ul'>
-                    <li><NavLink title='Biografia' id='#Biografia' onClick={toggleMenu}/></li>
-                    <li><NavLink title='Propostas' id='#Propostas' onClick={toggleMenu}/></li>
-                    <li><NavLink title='Agenda' id='#Agenda' onClick={toggleMenu}/></li>
-                    <li><NavLink title='Contato' id='#Contato' onClick={toggleMenu}/></li>
+                    <li><NavLink title='Biografia' id='Biografia' onClick={toggleMenu}/></li>
+                    <li><NavLink title='Propostas' id='Propostas' onClick={toggleMenu}/></li>
+                    <li><NavLink title='Agenda' id='Agenda' onClick={toggleMenu}/></li>
+                    <li><NavLink title='Contato' id='Contato' onClick={toggleMenu}/></li>
                     <li><img className='menu-logoSvg ' src={logo} alt="Lara Saraiva" /></li>
                 </ul>
             </nav>

@@ -8,7 +8,7 @@ const NavLink = (props) => {
         to={props.id}
         spy={true}
         smooth={true}
-        offset={0}
+        offset={-100}
         duration={500}
         onClick={props.onClick}
         >{props.title}</Link>
