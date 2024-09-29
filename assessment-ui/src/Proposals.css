@@ -20,20 +20,13 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding-bottom: 20px;
 }
 
 .otherProposal-title-container{
     display: flex;
     width: 100%;
-    height: 130px;
-    padding-top: 20px;
+    padding: 20px;
     justify-content: center;
-    background-image: url('./assets//Wave-Top.svg');
-    background-size: cover;
-    z-index: 2;
-    position: relative;
-    top: -10px;
 }
 
 .proposal-h2{
@@ -80,11 +73,6 @@
         padding: 5px;
     }
 
-    .otherProposal-title-container{
-        background-position-y: 30%;
-        padding-bottom: 20px;
-    }
-
     .proposal-h2{
         padding-top: 20px;
         height: fit-content;
@@ -97,9 +85,6 @@
 } */
 
 @media (min-width:992px) {
-    .otherProposal-title-container{
-        background-position-y: 30%;
-    }
     .proposal-cardsTitle-container{
         grid-template-columns: repeat(3, 1fr);    
     }

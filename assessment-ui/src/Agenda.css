@@ -10,7 +10,51 @@
     width: 100%;
 }
 
-.agenda-event {
-    flex: 1 1 calc(25% - 32px); 
-    max-width: calc(25% - 32px); 
+.agenda-title-image{
+    width: 200px;
+}
+
+.agenda-title{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/Wave-top.svg');
+    background-size: cover;
+}
+
+@media (min-width:576px) {
+    .agenda-title{
+        height: 200px;
+    }
+    .agenda-title-image{
+        width: 300px;
+    }
+}
+
+/* @media (min-width:768px) {
+  
+} */
+
+@media (min-width:992px) {
+    .agenda-title{
+        background-position-y: 22%;
+    }
+}
+
+@media (min-width:1200px) {
+    .agenda-title-image{
+        width: 370px;
+    }
+    .agenda-title{
+        background-position-y: 20%;
+    }
+
+}
+
+@media (min-width:1440px) {
+    .agenda-title{
+        background-position-y: 27%;
+    }
 }

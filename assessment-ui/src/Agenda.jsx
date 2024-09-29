@@ -1,10 +1,13 @@
 import './Agenda.css'
 import CardEvent from './components/CardEvent'
+import title from './assets/Agenda.svg'
 
 const Agenda = () => {
     return(
         <section id='Agenda'>
-            <div className='agenda-title'></div>
+            <div className='agenda-title'>
+                <img className='agenda-title-image' src={title} alt="" />
+            </div>
             <ul className='agenda-events-container'>
                 <CardEvent 
                 title='Encontro Comunitário - Zona Oeste'

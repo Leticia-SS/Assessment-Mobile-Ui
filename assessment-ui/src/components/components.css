@@ -82,6 +82,10 @@
     border-radius: 8px; 
     padding: 20px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 0 0 var(--amarelo);
+    border: 1px solid wheat;
 }
 
 .event-info {
@@ -89,8 +93,15 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between; 
-    margin-bottom: 8px; 
-    color: var(--vinho); 
+    margin-top: 5px; 
+    color: var(--vinho);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.event-location{
+    font-style: italic;
 }
 
 .event-main-container{
@@ -102,23 +113,50 @@
     padding-top: 20px;
 }
 
+.event-title{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 @media (min-width:576px) {
     .carousel-Logo, .slogan{
         width: 60%;
     }
 
     .card-container{
-        flex-basis: calc(45% - 10px);
+        flex-basis: calc(50% - 10px);
+    }
+
+    .event-container {
+        flex: 1 1 calc(40% - 15px);
+        max-width: calc(50% - 15px);
+        justify-content: space-around;
+    }
+    .event-main-container{
+        flex-direction: column;
+    }
+    .event-info{
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    .event-description{
+        padding-top: 5px;
+        text-align: justify;
     }
 }
 
-@media (min-width:768px) {
+/* @media (min-width:768px) {
   
-}
+} */
 
 @media (min-width:992px) {
     .carousel-Logo, .slogan{
         width: 50%;
+    }
+
+    .event-container {
+        flex: 1 1 calc(25% - 15px); 
+        max-width: calc(25% - 15px);
     }
 }
 

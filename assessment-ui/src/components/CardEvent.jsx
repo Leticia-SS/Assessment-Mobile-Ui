@@ -6,7 +6,7 @@ const CardEvent = (props) => {
                 <div className='event-main-container'>
                 <div>
                     <h3 className='event-title'>{props.title}</h3>
-                    <p>{props.location}</p>
+                    <p className='event-location'>{props.location}</p>
                 </div>
                 <div className='event-info'>
                     <p>{props.date}</p>
