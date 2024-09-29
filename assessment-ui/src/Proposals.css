@@ -1,0 +1,82 @@
+.proposal-title-container{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    justify-content: center;
+    background-image: url('./assets//Wave-Top.svg');
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+    top: -10px;
+}
+
+.proposal-title{
+    width: 200px;
+}
+
+.proposal-cards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.otherProposal-title-container{
+    display: flex;
+    width: 100%;
+    height: 130px;
+    padding-top: 20px;
+    justify-content: center;
+    background-image: url('./assets//Wave-Top.svg');
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+    top: -10px;
+}
+
+.proposal-h2{
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+}
+
+.proposal-cardsTitle-container{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px; 
+    padding: 10px;
+    color: white; 
+    text-align: center;   
+}
+
+.blue{
+    background-color: var(--azul);
+}
+
+.pink{
+    background-color: var(--rosa);
+}
+
+
+@media (min-width:576px) {
+  
+}
+
+@media (min-width:768px) {
+  
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+@media (min-width:1440px) {
+ 
+}
