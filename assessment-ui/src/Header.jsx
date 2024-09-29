@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import logo from './assets/Logotipo-Lara-Transp-Azul.svg'
+import logo from './assets/Logo-Vote-12.svg'
+import NavLink from './components/NavLink'
 
 const Header = () => {
     return(
@@ -10,10 +11,10 @@ const Header = () => {
 
             <nav className='header-menu'>
                 <ul>
-                    <li>Biografia</li>
-                    <li>Propostas</li>
-                    <li>Agenda</li>
-                    <li>Contato</li>
+                    <li><NavLink title='Biografia' id='#Biografia'/></li>
+                    <li><NavLink title='Propostas' id='#Propostas'/></li>
+                    <li><NavLink title='Agenda' id='#Agenda'/></li>
+                    <li><NavLink title='Contato' id='#Contato'/></li>
                 </ul>
             </nav>
         </header>
