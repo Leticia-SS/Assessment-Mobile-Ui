@@ -10,6 +10,7 @@ const NavLink = (props) => {
         smooth={true}
         offset={0}
         duration={500}
+        onClick={props.onClick}
         >{props.title}</Link>
         </>
     )
