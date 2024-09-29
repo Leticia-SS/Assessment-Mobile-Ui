@@ -6,7 +6,8 @@
     width: 100%;
     transition: background-image 0.5s ease; 
     background-size: cover;
-    height: calc(100vh - 100px);
+    height: 100vh;
+    padding-top: 80px;
 }
 
 .carousel-Logo, .slogan{
@@ -21,4 +22,30 @@
 }
 .img3{
     background-image: url('../assets/FundoMobile3.svg');
+}
+
+@media (min-width:576px) {
+    .carousel-Logo, .slogan{
+        width: 60%;
+    }
+}
+
+@media (min-width:768px) {
+  
+}
+
+@media (min-width:992px) {
+    .carousel-Logo, .slogan{
+        width: 60%;
+    }
+}
+
+@media (min-width:1200px) {
+
+}
+
+@media (min-width:1440px) {
+    .carousel-Logo, .slogan{
+        width: 55%;
+    }
 }
