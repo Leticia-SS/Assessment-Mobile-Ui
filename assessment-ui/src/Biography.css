@@ -111,6 +111,18 @@
         align-items: center;
         gap: 20px;
     }
+    .bio-title-h1{
+        width: 370px;
+    }
+    .title-img{
+        width: 410px;
+        right: 50px;
+    }
+    
+    .bio-title-img{
+        width: 340px;
+        height: 340px;
+    }
     
     .biography-content{
         width: 60%;
