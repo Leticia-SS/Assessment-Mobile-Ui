@@ -44,11 +44,17 @@
 }
 
 @media (min-width:1200px) {
+    #Agenda{
+        height: 80vh;
+    }
+    .agenda-events-container{
+        padding-top: 100px;
+    }
     .agenda-title-image{
         width: 370px;
     }
     .agenda-title{
-        background-position-y: 20%;
+        background-position-y: 24%;
     }
 
 }

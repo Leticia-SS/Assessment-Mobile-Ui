@@ -24,7 +24,7 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* Coloquei como rascunho para poder usar nos outros arquivos css e salvar ele aq como backup
 
 @media (min-width:576px) {
   
@@ -44,4 +44,4 @@ html, body {
 
 @media (min-width:1440px) {
  
-}
+} */

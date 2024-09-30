@@ -35,14 +35,14 @@
 .contact-content{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 20px;
-    margin-left: 40px;
 }
 
 .contact-container{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     justify-content: space-between;
 }
@@ -71,13 +71,19 @@ h4, p{
         width: 200px;
     }
 
-    .contact-content{
-        font-size: 18px;
-    }
-
     .final-sentence{
         padding: 40px;
     }
+    .contact-container{
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+        justify-content: center;
+        width: 100%;
+      }
+      .contact-content{
+        font-size: 18px;
+      }
 
 }
 
@@ -91,16 +97,17 @@ h4, p{
     width: fit-content;
     flex-direction: column-reverse;
     align-items: center;
-  }
+    margin-left: 20px;
+}
+.contact-content{
+    align-items: flex-start;
+}
+
   .contact-container{
-    flex-direction: row;
-    align-items: end;
-    width: 50%;
     height: 450px;
+    align-items: end;
   }
-  .contact-content{
-    margin: 0;
-  }
+
 }
 
 @media (min-width:992px) {
@@ -117,6 +124,18 @@ h4, p{
     .final-sentence{
         font-size: 22px;
     }
+    .contact-container{
+        justify-content: space-around;
+    }
+}
+
+@media (min-width:1200px) {
+    .contact-title-image2{
+        width: 370px;
+    }
+    .contact-title{
+        padding-top: 100px;
+      }
 }
 
 

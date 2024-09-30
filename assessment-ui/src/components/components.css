@@ -118,6 +118,27 @@
     margin-bottom: 5px;
 }
 
+/* SocialMedia Component Stilização */
+.socialMedia-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.socialMedia-links {
+    color: var(--amarelo);                
+    text-decoration: none;       
+    transition: color 0.3s;  
+    font-size: 40px;   
+}
+
+.socialMedia-links:hover {
+    color: var(--rosa);   
+}
+
 @media (min-width:576px) {
     .carousel-Logo, .slogan{
         width: 60%;
@@ -143,11 +164,29 @@
         padding-top: 5px;
         text-align: justify;
     }
+    .socialMedia-links {
+        width: calc(40% - 20px);
+        margin: 10px;
+        text-align: center;
+        font-size: 60px;
+    }
+    .socialMedia-container {
+        justify-content: center;
+        width: 40%;
+    }
+
 }
 
-/* @media (min-width:768px) {
+@media (min-width:768px) {
+    
+    .socialMedia-links {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        font-size: 50px;
+    }
   
-} */
+}
 
 @media (min-width:992px) {
     .carousel-Logo, .slogan{
@@ -157,6 +196,17 @@
     .event-container {
         flex: 1 1 calc(25% - 15px); 
         max-width: calc(25% - 15px);
+    }
+
+    .socialMedia-links {
+        width: calc(40% - 20px);
+        margin: 10px;
+        text-align: center;
+        font-size: 70px;
+    }
+    .socialMedia-container {
+        justify-content: center;
+        width: 40%;
     }
 }
 
