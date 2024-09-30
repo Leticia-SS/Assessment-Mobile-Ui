@@ -4,6 +4,7 @@ import CarouselContainer from './components/Background'
 import Biography from './Biography'
 import Proposals from './Proposals'
 import Agenda from './Agenda'
+import Contacts from './Contacts'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
   <Biography/>
   <Proposals/>
   <Agenda/>
+  <Contacts/>
     </>
   )
 }
