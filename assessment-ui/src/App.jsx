@@ -5,6 +5,7 @@ import Biography from './Biography'
 import Proposals from './Proposals'
 import Agenda from './Agenda'
 import Contacts from './Contacts'
+import UpButton from './components/UpButton'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
   <Proposals/>
   <Agenda/>
   <Contacts/>
+  <UpButton/>
     </>
   )
 }

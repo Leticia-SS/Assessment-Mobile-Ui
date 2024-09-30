@@ -135,9 +135,15 @@
     font-size: 40px;   
 }
 
-.socialMedia-links:hover {
-    color: var(--rosa);   
+.socialMedia-links:hover, 
+.socialMedia-links:focus {
+    color: var(--rosa); 
+    outline: none;
 }
+
+.socialMedia-links:active {
+    color: var(--amarelo);
+} 
 
 @media (min-width:576px) {
     .carousel-Logo, .slogan{
