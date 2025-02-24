@@ -1,7 +1,7 @@
 import './Contacts.css'
 import title from './assets/Contatos.svg'
 import SocialMedia from './components/SocialMedia'
-import vote12 from './assets/vote12.png'
+import vote12 from './assets/Vote12.png'
 
 const Contacts = () => {
     return(
